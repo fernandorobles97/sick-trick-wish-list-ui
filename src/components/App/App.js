@@ -12,7 +12,7 @@ function App() {
     getTricks()
     .then(data => setTrickData(data))
     .catch(err => alert(err))
-  })
+  }, [])
 
 
   return (
