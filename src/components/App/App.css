@@ -41,3 +41,10 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
+form {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  margin-bottom: 7vh;
+}
